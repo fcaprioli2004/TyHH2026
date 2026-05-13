@@ -1,0 +1,20 @@
+05/04/2026
+Seguimiento de la ISS mediante software de tracking. Realizamos astrofotografía comparativa utilizando sensores de smartphones y cámaras de óptica profesional para validar resolución.
+
+08/04/2026
+Extracción de conversor DC-DC de cargador de periféricos. Configuración de usuarios en servidor de logística y monitoreo de espectro de radiofrecuencia (RF) vía aplicaciones SDR.
+
+12/04/2026
+Trabajo en paralelo: dimensionamiento de antena para 22,116 MHz y procesamiento de metadatos EXIF para análisis de capturas previas.
+
+15/04/2026
+Estudio de interferencia de señales (batido de ondas) y mezcla de sinusoides para down-conversion en SDR. Instalación de antena de hilo largo en mástil de bandera para testeo en bandas de 7 a 28 MHz.
+
+22/04/2026
+Análisis de GPREDICT para control de movimiento vía Arduino. Evaluación de antenas circulares en lab y simulación en MMANA-GAL (144.400 MHz), validando la superioridad de la configuración Yagi.
+
+29/04/2026
+Selección de arquitectura Moxon por relación robustez/espacio. Cálculo de geometría final (conductor 1mm): Ancho 748.8mm, Excitado 108mm, Separación 25.8mm, Long. Excitador 964.7mm y Long. Reflector 1031.9mm.
+
+06/05/2026
+Sin actividad (clase suspendida por viento zonda)

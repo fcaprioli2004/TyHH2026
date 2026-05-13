@@ -1,20 +1,35 @@
-05/04/2026
-Seguimiento de la ISS mediante software de tracking. Realizamos astrofotografía comparativa utilizando sensores de smartphones y cámaras de óptica profesional para validar resolución.
+Bitácora de Ingeniería: Sistema de Seguimiento ISS y Antena de Radio
+Resumen del Proyecto: Desarrollo de un sistema motorizado para el seguimiento activo de la ISS y diseño de una antena optimizada para la recepción de señales de radio. El registro documenta el progreso desde el hardware básico hasta la implementación de software de control y protocolos de comunicación.
 
-08/04/2026
-Extracción de conversor DC-DC de cargador de periféricos. Configuración de usuarios en servidor de logística y monitoreo de espectro de radiofrecuencia (RF) vía aplicaciones SDR.
+Marzo: Fundamentos y Configuración de Sistemas
+04/03/2026: Cálculo y construcción de inductores según parámetros específicos de diseño. Evaluación de hardware para la implementación de un servidor bajo entorno Linux.
 
-12/04/2026
-Trabajo en paralelo: dimensionamiento de antena para 22,116 MHz y procesamiento de metadatos EXIF para análisis de capturas previas.
+11/03/2026: Caracterización de inductores y registro de datos en repositorio compartido. Configuración de perfiles de usuario en servidor Xubuntu para la gestión de logística.
 
-15/04/2026
-Estudio de interferencia de señales (batido de ondas) y mezcla de sinusoides para down-conversion en SDR. Instalación de antena de hilo largo en mástil de bandera para testeo en bandas de 7 a 28 MHz.
+18/03/2026: Fabricación de prototipos de capacitores. Implementación de ISS Detector y Gpredict en entorno Linux para el rastreo orbital inicial.
 
-22/04/2026
-Análisis de GPREDICT para control de movimiento vía Arduino. Evaluación de antenas circulares en lab y simulación en MMANA-GAL (144.400 MHz), validando la superioridad de la configuración Yagi.
+25/03/2026: Establecimiento de roles bajo metodología SCRUM. División de tareas en tres áreas: Fotografía (técnicas de captura), Escucha (monitoreo SDR) e Informes (redacción técnica en Overleaf sobre metodologías Agile).
 
-29/04/2026
-Selección de arquitectura Moxon por relación robustez/espacio. Cálculo de geometría final (conductor 1mm): Ancho 748.8mm, Excitado 108mm, Separación 25.8mm, Long. Excitador 964.7mm y Long. Reflector 1031.9mm.
+Abril: Radiofrecuencia y Modelado de Antenas
+01/04/2026: Monitoreo de repetidora local mediante SDR. Configuración de túnel SSH para acceso remoto ante la ausencia de IP pública. Análisis de metadatos EXIF para estandarización de capturas astronómicas.
 
-06/05/2026
-Sin actividad (clase suspendida por viento zonda)
+05/04/2026: Pruebas de campo de seguimiento de la ISS. Captura fotográfica comparativa mediante sensores móviles y cámaras réflex para validación de resolución en paso orbital.
+
+08/04/2026: Práctica de laboratorio con NanoVNA para medición de dipolo (92 cm - 163 MHz). Desensamblaje de periféricos para extracción de convertidores DC-DC y primer contacto con el software de modelado MMANA-GAL.
+
+12/04/2026: Flujo de trabajo dividido: modelado teórico de antena para 22,116 MHz y procesamiento de datos EXIF para verificación de parámetros de captura.
+
+15/04/2026: Estudio del batido de ondas y mezcla de sinusoides para down-conversion en SDR (vía scripts en R). Montaje de antena de hilo largo en mástil exterior (7-28 MHz), logrando captar señales de larga distancia. Definición de montura ecuatorial controlada por Arduino.
+
+22/04/2026: Simulación comparativa en MMANA-GAL entre arquitecturas Dipolo, Moxon y Yagi para 144.400 MHz. Análisis de integración de Gpredict con Arduino para control de motores.
+
+29/04/2026: Selección definitiva de antena Moxon por su robustez y compacidad. Cálculo de geometría final para 145 MHz (conductor 1mm):
+
+Ancho: 748.8 mm | Excitado: 108 mm | Gap: 25.8 mm.
+
+Longitud Excitador: 964.7 mm | Longitud Reflector: 1031.9 mm.
+
+Corte de materiales y práctica de soldadura de precisión.
+
+Mayo: Desarrollo de Prototipo
+06/05/2026: Actividad presencial suspendida (Viento Zonda). Investigación autónoma sobre optimización constructiva de la antena Moxon basada en los lineamientos técnicos de la cátedra.
